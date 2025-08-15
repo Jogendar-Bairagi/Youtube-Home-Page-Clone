@@ -1,0 +1,46 @@
+body {background-color: #0F0F0F; padding: 0px; margin: 0px; font-family:Arial, Helvetica, sans-serif; display: flex;}
+.header {margin: 0px; padding: 7 2px; display: flex; background-color: #0F0F0F; display: flex; align-items: center; position: fixed; width: 100%; z-index: 1;}
+.search-container {width: 35%; height: 40px; background-color: inherit; margin: 0 auto; padding: 0px; border-radius: 20px; box-sizing: border-box; display: flex; justify-content: flex-end;}
+.search-container input {height: 100%; background-color: inherit; font-size: 98%; color: white; border: none; width: 90%; float: left; border: 2px solid #222222; border-top-left-radius: inherit; border-bottom-left-radius: inherit; box-sizing: border-box; padding-left:15px; border-right: none;}
+.search-container img {border-top-right-radius: inherit; border-bottom-right-radius: inherit; width: 50px; cursor: pointer;}
+.mic {height: 40px; width: 45px; background-color: #222222; border-radius: 50%; align-content: center; justify-content: center; text-align:center; margin-left: 10px; box-sizing: border-box; padding: 0 2px;}
+.mic img {height: 20px; width: 22px; cursor: pointer;}
+.right-header {display: flex; justify-content: flex-end; align-content: center;}
+.upload {cursor: pointer;}
+.right-header div {margin: 2 18px; }
+.user {border-radius: 50%; box-sizing: border-box; overflow: hidden; cursor: pointer;}
+.body {display: flex; flex-wrap: wrap; margin-top: 100px;}
+
+.hr {display: block;}
+.sidebar {background-color: #212121; padding-top: 10px; width: 240px; overflow-y: scroll; color: white; height: 100%; display: flex; flex-direction: column; vertical-align: middle; position: absolute; height: 100%; position: fixed; padding-bottom: 100px; box-sizing: border-box; margin-top: 100px;}
+.sidebar a {padding: 10 24px; cursor: pointer; height: 40px;}
+.sidebar a:hover {background-color: #4c4c4c;}
+.sidebar h4 {padding-top: -8px}
+.sidebar i{margin-right: 24px; font-size: 22px;}
+.sidebar::-webkit-scrollbar { width: 7px;}
+.sidebar::-webkit-scrollbar-track {background: none;}
+.sidebar::-webkit-scrollbar-thumb {background: #717171;}
+.left-menu.left-menu:onclick {display: none;}
+
+/* Body section starts here.....................--> */
+
+.video {width: 350px; height: 320px; background-color: #0F0F0F;  margin: 12px; padding: 0px; border-radius: 10px; box-sizing: border-box; overflow: hidden; display: flex; flex-wrap: wrap; flex-direction: row;}
+.thumbnail {height: 200px; background-color: green; border-radius: inherit; box-sizing: border-box; overflow: hidden;}
+.thumbnail img {width: 100%; height: 100%;}
+.thumbnail img:hover {width: 100%;}
+.channel-logo {height: 60px; width: 60px; padding: 0px; overflow: hidden; box-sizing: border-box; border-radius: 50%; padding: 10px;}
+.channel-logo img  {height: 100%; width: 100%; border-radius: inherit;}
+.desc {width: 250px;height: auto; color: white; text-align: justify; font-size: 15px; font-weight: 540; margin-top: 5px; padding-bottom: 0;}
+.option {margin-left: 20px; cursor: pointer; box-sizing: border-box;}
+.channel-name {color: #999999; margin-left: 60px; font-size: 15px;}
+.channel-name img {height: 15px; width: 15px;}
+.span {color: #999999; margin-left: 60px; margin-top: 4px;}
+a {text-decoration: none; color: inherit;}
+.video-length {color: white; display: inline; position: relative; float: right; margin-top: -32px; margin-right: 7px; padding: 7px; font-size: 12px; background-color: rgb(0, 0, 0, 0.6); border-radius: 5px; font-weight: 500;}
+#thumbnail2:hover {content: url('gifchotabheem.webp');}
+#thumbnail4:hover {content: url('https://images.bhaskarassets.com/web2images/521/2023/12/03/eod-27_1701598375.gif'); width: 350px;}
+#thumbnail11:hover {content: url('netflixgif.webp'); width: 337px;}
+.suggestion-navbar {display: flex; width: 100%; background-color:#0F0F0F; overflow: scroll; box-sizing: border-box; flex-wrap: nowrap; overflow-y: scroll; position: fixed; z-index: 1; clear: both; margin-top: 55px;}
+.suggestion-navbar div {  flex-wrap: nowrap; width: 100%; display: block; margin: 12 6px; background-color: #313131; padding: 6px 12px; border: 1px solid reg(255,255,255,0.1); border-radius: 10px; white-space: nowrap; cursor: pointer; color: #fff; transition: .5s;}
+.suggestion-navbar::-webkit-scrollbar {height: 0;}
+.suggestion-navbar div:hover {background-color: #4d4d4d;}
